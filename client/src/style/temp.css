@@ -54,8 +54,6 @@ nav {
     border: 1px solid darkgray;
 }
 
-
-
 .logo {
     display: block;
     margin: auto;
@@ -88,13 +86,11 @@ nav {
     box-shadow: 1px 1px 1px 1px rgb(244, 244, 244);
 }
 
-
 .search__buttons{
     display: flex;
     justify-content: center;
     margin: auto;
 }
-
 
 footer {
     position: absolute;
