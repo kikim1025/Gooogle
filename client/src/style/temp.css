@@ -1,6 +1,14 @@
+body {
+    margin: 0;
+}
+
+.App {
+    position: relative;
+}
+
 nav {
     height: 2rem;
-    margin: 15px 12px;
+    padding: 15px 12px;
 }
 
 .link {
@@ -25,13 +33,14 @@ nav {
 }
 
 .button {
+    border: 0;
     border-radius: 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .75rem;
-    font-weight: 600;
+    font-weight: bold;
     padding: .45rem .65rem;
     cursor: pointer;
-    margin: 0px 2px;
+    margin: 0px 5px;
 }
 
 .button--blue {
@@ -50,4 +59,40 @@ nav {
     display: block;
     margin: auto;
     margin-top: 20vh;
+}
+
+.search {
+    width: 35vw;
+    min-width: 300px;
+    margin: auto;
+}
+
+.search__input {
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    font-size: 1rem;
+    height: 2rem;
+    width: 35vw;
+    min-width: 300px;
+    padding: 5px 1rem;
+    margin: 25px auto;
+}
+
+.search__input:focus {
+
+}
+
+.search__buttons{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: lightgray;
+    height: 1rem;
+    width: 100%;
 }
